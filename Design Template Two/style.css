@@ -1,0 +1,375 @@
+/************** 1. Typography ************************/
+@font-face {
+	font-family: "gothamRoundedBold";
+	src: url('fonts/something.woff') format('woff');
+}
+@font-face {
+	font-family: "gothamRoundedBook";
+	src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+
+body, p {
+	font-family: "gothamRoundedBook";
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+
+
+
+
+
+
+
+/*********** header-area**********/
+
+.header-area {
+	background-image: url('images/header-bg.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	color:#FFFFFF;
+	padding:35px 0;
+	overflow:hidden;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+}
+
+.menu-area ul li{
+	padding:0 25px;
+}
+
+.menu-area ul li a{
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+	border-bottom:2px solid transparent;
+	padding-bottom:10px;
+	transition:.5s;
+}
+
+.menu-area ul li a:hover{
+	border-bottom:2px solid #FFFFFF;;
+}
+
+.menu-area ul .logo img{
+	margin: 0 50px;
+	width: 60px;
+	height: auto;
+	transition:1s;
+}
+
+.menu-area ul .logo img:hover{
+	transform:scale(1.5) rotate(360deg);
+}
+
+.menu-area ul .logo a:hover{
+	border:none;
+}
+
+.menu-area ul .logo a{
+	border:none;
+}
+
+.text-area h2{
+	font-size: 35px;
+	font-family: "gothamRoundedBold";
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+	margin-top:250px;
+
+}
+
+.header-area h5 {
+	font-size: 16px;
+	font-family: "gothamRoundedBold";
+	font-weight: normal;
+	margin:50px;
+}
+
+.btn {
+	font-family: "gothamRoundedBold";
+	text-decoration:none;
+	padding:20px 40px;
+	color:#FFFFFF;
+	background-color:#16A086;
+	border:1px solid #16A086;
+	text-transform:uppercase;
+	border-radius:4px;
+	display: inline-block;
+	margin-bottom:150px;
+	transition:0.5s;
+}
+
+.btn:hover {
+	background: #FFFFFF;
+	color: #16A086;
+	border: 1px solid #16A086;
+}
+
+.icon-area ul li{
+	margin: 0 10px;
+}
+
+.icon-area ul li a{
+	text-decoration:none;
+	font-size:30px;
+	color:#FFFFFF;
+	transition:0.5s;
+}
+
+.icon-area ul li a:hover{
+	color:#16A086;
+}
+
+/************get-started*********/
+
+.get-started {
+	background-color:#F5F6F8;
+	max-height:600px;
+	overflow:hidden;
+}
+
+.content {
+	padding:50px 0;
+}
+
+.content h3{
+	font-family: "gothamRoundedBold";
+	font-size:20px;
+	color:#16A086;
+	letter-spacing:2px;
+	line-height:1.5em;
+}
+
+.content b{
+	color:#898A8C;
+}
+
+.content p{
+	line-height:2em;
+	margin:60px 0;
+	letter-spacing:2px;
+}
+.content-img img {
+	width:100%;
+	margin-top:150px;
+}
+
+/************design********/
+
+.design-area {
+	overflow: hidden;
+	margin-top: 80px;
+}
+
+.design {
+	background-image: url('images/mobile.png');
+	background-repeat: no-repeat;
+	background-size:30%;
+	background-position:top left;
+	overflow:hidden;
+}
+
+.design-text {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+	margin-left:10%;
+}
+
+.design-text h3{
+	font-family: "gothamRoundedBold";
+	font-size:20px;
+	color:#16A086;
+	letter-spacing:2px;
+	line-height:1.5em;
+}
+
+.design-text p{
+	line-height:2em;
+	margin:40px 0;
+	letter-spacing:2px;
+}
+
+.slide {
+	margin: 25px 0;
+}
+.arrow i {
+	color: #000000;
+	font-size: 20px;
+	font-weight:bold;
+	margin-right: 10px;
+}
+
+/*******community-area*****/
+
+.community {
+	background-color:#F5F6F8;
+	overflow:hidden;
+	padding:100px 0;
+}
+
+.logo-img img{
+	width:100%;
+	height:auto;
+	margin-top:10px;
+}
+
+.green-logo img{
+	width:80px;
+	height:auto;
+	margin-top:30px;
+	transition:1s;
+}
+
+.green-logo img:hover{
+	transform:scale(1.5) rotate(360deg);
+}
+
+.arrow-area{
+	text-align:right;
+	margin-right:25px;
+}
+
+.green-logo h3{
+	font-family: "gothamRoundedBold";
+	font-size:20px;
+	letter-spacing:0.5px;
+	line-height:1.5em;
+	margin:30px 0;
+}
+
+.green-logo p{
+	line-height:2em;
+	letter-spacing:2px;
+}
+
+/*******subscribe-area*******/
+
+.subscribe-area {
+	background-image:url('images/subscribe-bg.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	padding:350px;
+}
+
+.subscribe h3{
+	font-family: "gothamRoundedBook";
+	font-size:25px;
+	letter-spacing:2px;
+	color:#FFFFFF;
+}
+
+.subscribe-form form input[type="email"] {
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing:1px;
+	border: none; 
+	border-radius: 3px 0 0 3px;
+}
+
+.subscribe-form form button {
+	background: #11A689;
+	color: #FFFFFF;
+	padding: 15px 20px;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+}
+
+/*******Download-area******/
+
+.download-area{
+	background-color:#F5F6F8;
+	overflow:hidden;
+	padding:100px 0;
+}
+
+.download h3{
+	font-family: "gothamRoundedBold";
+	font-size:25px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+}
+.download p{
+	line-height:2em;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin-bottom:60px;
+}
+
+
+.apple form input[type="email"] {
+	background:#1BBC9B;
+	color:#FFFFFF;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing:1px;
+	border: none; 
+	border-radius: 3px 0 0 3px;
+}
+
+.apple form button {
+	background: #11A689;
+	color: #FFFFFF;
+	padding: 15px 20px;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+}
+
+.android form input[type="email"] {
+	background:#1BBC9B ;
+	color:#FFFFFF;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing:1px;
+	border: none; 
+	border-radius: 3px 0 0 3px;
+}
+
+.android form button {
+	background: #11A689;
+	color: #FFFFFF;
+	padding: 15px 20px;
+	border: none; 
+	border-radius: 0 3px 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
